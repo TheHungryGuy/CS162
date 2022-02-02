@@ -4,6 +4,9 @@ public class DynamicArrayTester {
 
 	public static void main(String[] args) {
 		
+	
+		
+		
 		int [] arr = new int[3];
 		arr[0]=10;
 		arr[1]=20;
@@ -13,6 +16,15 @@ public class DynamicArrayTester {
 		arr = add(arr, 40); //insert new item...
 		System.out.println();
 		printArray(arr);
+		System.out.println();
+		int new1 = arr[0];
+		int new2 = arr[1];
+
+		arr[0]= new2;
+		arr[1]= new1;
+		
+		System.out.println(arr[0]);
+		System.out.println(arr[1]);
 
 	}
 	
