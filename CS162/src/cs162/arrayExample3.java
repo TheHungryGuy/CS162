@@ -12,6 +12,7 @@ public class arrayExample3 {
 		//4. print thanks
 		//5. loop in, calculate the average, print it
 		
+		@SuppressWarnings("resource")
 		Scanner input = new Scanner(System.in);
 		System.out.print("How many numbers you need? ");
 		int numbers = input.nextInt();
